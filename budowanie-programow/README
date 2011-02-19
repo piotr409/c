@@ -1,0 +1,2 @@
+1. Powstaną pliki z rozszerzeniem .o .
+2. Tak, jest konieczne istnienie pliku biblioteka.c ponieważ inaczej wywali błąd związany z referencją do procedury hej.
