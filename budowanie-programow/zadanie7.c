@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-void odwrotnosc(float liczba) {
+void odwrotnosc(double liczba) {
   if (liczba == .0) {
     printf("Liczba %lf nie posiada odwrotności.\n", liczba);
     
@@ -10,7 +10,7 @@ void odwrotnosc(float liczba) {
   }
 }
 
-float kwadratowy(float pierwiastek){
+double kwadratowy(double pierwiastek){
   if (pierwiastek == .0) {
       return .0;
 
@@ -19,7 +19,7 @@ float kwadratowy(float pierwiastek){
 
 int main() {
 
-  float b;
+  double b;
   scanf("%f", &b);
   if (b < .0) {
     odwrotnosc(b);
