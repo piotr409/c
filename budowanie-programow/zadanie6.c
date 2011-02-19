@@ -2,7 +2,7 @@
 #include <math.h>
 
 float kwadratowy(float pierwiastek){
-  if(pierwiastek==.0)
+  if (pierwiastek==.0)
   {
       return .0;
 
@@ -13,7 +13,7 @@ int main(){
 
   float b;
   scanf("%f",&b);
-  if(b<0.0)
+  if (b<0.0)
  {
     printf("Wystąpił błąd, liczba %lf jest mniejsza od 0.\n",b);
     return 0;
