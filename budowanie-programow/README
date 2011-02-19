@@ -4,3 +4,5 @@
 4. Wydając polecenie $gcc -o program glowny.o biblioteka.o kompilator łączy pliki w 1 plik wykonywalny o nazwie program. Źródła nie są potrzebne do łączenia plików .o .
 5. Zadanie znajdują się w plikach : zadanie5a.c, zadanie5b.c .
 6. Zadanie 6 znajduje się w pliku zadanie6.c .
+7. Zadanie 7 znajduje się w pliku zadanie7.c .
+
