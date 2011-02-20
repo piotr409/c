@@ -2,23 +2,20 @@
 #include <math.h>
 
 int main() {
-  int a, min, max, suma, iloczyn,  i;
+  int a, min, max, suma, iloczyn, i;
   printf("Wprowadź 3 liczby całkowite : \n");
-  scanf("%i",&a);
-  suma = a;
-  min = a;
-  max = a;
-  iloczyn = a;
+  scanf("%i", &a);
+  suma = min = max = iloczyn = a;
   for( i = 0; i < 2; i++) {
-    scanf("%i",&a);
+    scanf("%i", &a);
     if(a < min) min = a;
     if(a > max) max = a;
     suma += a;
     iloczyn *= a;
   }
-  printf("Suma wynosi: %suma\n", suma);
-  printf("Iloczyn wynosi: %iloczyn\n", iloczyn);
-  printf("Najmniejsza liczba to: %min\n", min);
-  printf("Największa liczba to: %max\n", max); 
+  printf("Suma wynosi: %i\n", suma);
+  printf("Iloczyn wynosi: %i\n", iloczyn);
+  printf("Najmniejsza liczba to: %i\n", min);
+  printf("Największa liczba to: %i\n", max); 
   return 0;
 }
