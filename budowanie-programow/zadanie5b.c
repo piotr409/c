@@ -10,12 +10,12 @@ int main()
    printf("Podaj druga liczbe: ");
    scanf("%d", &licz2);
    if (licz1>licz2){
-     printf("Liczba %i jest większa od liczy %i.\n",licz1,licz2);
+     printf("Liczba %i jest większa od liczy %i.\n", licz1, licz2);
    }else if(licz1<licz2){
-     printf("Liczba %i jest większa od liczy %i.\n",licz2,licz1);
+     printf("Liczba %i jest większa od liczy %i.\n", licz2, licz1);
    }else{
-     printf("Liczba %i jest równa liczbie %i.\n",licz1,licz2);
+     printf("Liczba %i jest równa liczbie %i.\n", licz1, licz2);
    }
-     
+      
    return 0;
 }

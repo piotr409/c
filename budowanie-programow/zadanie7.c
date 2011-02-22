@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include <math.h>
+/* program, który wczyta liczbę rzeczywistą i wypisze jej odwrotność oraz jej pierwiastek kwadratowy. */
+
 
 void odwrotnosc(double liczba) {
   if (liczba == .0) {

@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <math.h>
- 
+/* 
+Program, który wypisze tabelkę wartości pierwiastka kwadratowego. Program ma pytać o
+    * wartość poczatkową
+    * wartość końcową
+    * krok dla argumentu
+i wypisywać tabelką w podanym zakresie. 
+*/ 
+
 double pierw(double zmienna) {
   return sqrt(zmienna);
 }

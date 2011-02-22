@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
+/*Program, który prosi użytkownika o wprowadzenie trzech liczb z klawiatury, a następnie wypisze sumę, iloczyn, najmniejszą i największą z wprowadzonych liczb. */
 int main() {
   int a, min, max, suma, iloczyn, i;
   printf("Wprowadź 3 liczby całkowite : \n");

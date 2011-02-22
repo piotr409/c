@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+/*program, który wczyta liczbę rzeczywistą i wypisze jej pierwiastek kwadratowy. */
 
 float kwadratowy(float pierwiastek){
   if (pierwiastek == .0) {
