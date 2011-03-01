@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "det.h"
 
 main () {
   int  rozmiar, i, j;

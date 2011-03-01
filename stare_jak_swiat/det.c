@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+#include "det.h"
 
 /* Funkcja obliczajaca wyznacznik macierzy. */
 float det(int n, float a[n][n]) {
