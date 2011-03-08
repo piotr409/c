@@ -1,23 +1,9 @@
 #include <stdio.h>
 #include <math.h>
+#include "kwadratowy.h"
+#include "odwrotnosc.h"
 /* program, który wczyta liczbę rzeczywistą i wypisze jej odwrotność oraz jej pierwiastek kwadratowy. */
 
-
-void odwrotnosc(double liczba) {
-  if (liczba == .0) {
-    printf("Liczba %f nie posiada odwrotności.\n", liczba);
-    
-  }else {
-    printf("Liczba odwrotna do liczby %f to %f\n", liczba, 1 / liczba);
-  }
-}
-
-double kwadratowy(double pierwiastek){
-  if (pierwiastek == .0) {
-      return .0;
-
-  } return sqrt(pierwiastek);
-}
 
 int main() {
 

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <math.h>
+#include "kwadratowy.h"
 /* 
 Program, który wypisze tabelkę wartości pierwiastka kwadratowego. Program ma pytać o
     * wartość poczatkową
@@ -8,9 +9,6 @@ Program, który wypisze tabelkę wartości pierwiastka kwadratowego. Program ma 
 i wypisywać tabelką w podanym zakresie. 
 */ 
 
-double pierw(double zmienna) {
-  return sqrt(zmienna);
-}
 
 int main() {
   double pocz, konc, krok, temp;
@@ -29,7 +27,7 @@ int main() {
     if(pocz < .0) {
       printf(" %.4lf   brak\n", pocz);
     }else {
-      printf(" %.4lf  %.4lf\n", pocz, pierw(pocz));
+      printf(" %.4lf  %.4lf\n", pocz, kwadratowy(pocz));
     }
     
     pocz += krok;

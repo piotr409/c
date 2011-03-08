@@ -1,0 +1,1 @@
+double kwadratowy(double pierwiastek);

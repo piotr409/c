@@ -1,0 +1,1 @@
+void odwrotnosc(double liczba);
