@@ -1,0 +1,1 @@
+int oblicz_sekundy(int wiek, int rok);

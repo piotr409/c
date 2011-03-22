@@ -1,0 +1,11 @@
+compile : macierz.c det.c
+	cc -c macierz.c det.c
+
+testowy : macierz.o det.o
+	cc -o testowy macierz.o det.o
+
+test : testowy test.txt
+	./testowy < test.txt
+
+clean : 
+	rm -f *.o testowy *~
