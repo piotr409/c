@@ -19,6 +19,7 @@ int ptinrect(struct point p, struct rect r)
 
 void wczytaj_prostokat(struct rect *rect1)
 {
+  printf("Podaj wspolrzedne prostokatna\n");
     scanf("%d", &rect1->ll.x);
     scanf("%d", &rect1->ll.y);
     scanf("%d", &rect1->ur.x);
